@@ -1,0 +1,34 @@
+<!-- Write a javascript Program to find gross salary. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let gross_salary;
+
+        // user input
+        let base_salary = prompt("Enter your Salary : ");
+        let hra = prompt("Enter House Rental Allowance percentage : ");
+        let da = prompt("Enter Dearness Allowance percentage : ");
+        let ta = prompt("Enter Travel Allowance percentage : ");
+
+        // hra,da,ta calculation
+        hra = (base_salary * hra) / 100;
+        da = (base_salary * da) / 100;
+        ta = (base_salary * ta) / 100;
+
+        //gross salary calculation
+        gross_salary = base_salary - (hra + da + ta);
+
+        // output
+        console.log("Your Base Salary Rs.",base_salary);
+        console.log("Your Gross Salary Rs.",gross_salary);
+
+    </script>
+</body>
+</html>
