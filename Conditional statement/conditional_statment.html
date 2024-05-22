@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // Q-1 Write a JavaScript program to check numbers positive and negative.
+        // let a = prompt("Enter a number to check number positive or negative");
+
+        // if(a<0){
+        //     alert("Number is Negative");
+        // }
+        // else{
+        //     alert("Number is Positive");
+        // }
+
+
+
+        // Q-2 Write a JavaScript program to check numbers even and odd.
+        // let a = prompt("Enter a number to check number even or odd");
+
+        // if(a%2 == 0){
+        //     alert("Number is Even");
+        // }
+        // else{
+        //     alert("Number is Odd");
+        // }
+
+
+        // Q-3 Write a JavaScript program to check year is leap year or not leap year.
+        // let a = prompt("Enter a number to check year is leap year or not");
+
+        // if(a%4 == 0){
+        //     alert("Leap Year");
+        // }
+        // else{
+        //     alert("Not Leap Year");
+        // }
+
+
+        // Q-4 Write a JavaScript program to find which number is greater in 4 numbers using ladder if else.
+        // let a = parseInt(prompt("Enter First Number"));
+        // let b = parseInt(prompt("Enter Second Number"));
+        // let c = parseInt(prompt("Enter Third Number"));
+        // let d = parseInt(prompt("Enter Fourth Number"));
+
+        // if(a>=b && a>=c && a>=d){
+        //     alert(a+" is Greater");
+        // }
+        // else if(b>=a && b>=c && b>=d){
+        //     alert(b+" is Greater");
+        // }
+        // else if(c>=a && c>=b && c>=d){
+        //     alert(c+" is Greater");
+        // }
+        // else{
+        //     alert(d+" is Greater");
+        // }
+
+
+        // Q-5 Write a JavaScript program to decide that you eligible for voting
+        // let age = prompt("Enter your Age");
+
+        // if(age>=18){
+        //     alert("You're eligible for Voting");
+        // }
+        // else{
+        //     alert("You're not eligible for Voting");
+        // }
+
+
+        // Q-6 Write a Javascript program to input marks of five subjects Physics, Chemistry, 
+        // Biology, Mathematics and Computer. Calculate percentage and grade
+
+        // let marks;
+        // let phy = parseInt(prompt("Enter your Physics Marks"));
+        // let chem = parseInt(prompt("Enter your Chemistry Marks"));
+        // let bio = parseInt(prompt("Enter your Biology Marks"));
+        // let math = parseInt(prompt("Enter your Mathmatics Marks"));
+        // let com = parseInt(prompt("Enter your Computer Marks"));
+
+        // marks = (phy+chem+bio+math+com)/5;
+        // console.log("Your Percentage is :",marks);
+
+        // if(marks>=90){
+        //     console.log("Your Grade is 'A' ");
+        // }
+        // else if(marks>=80 && marks<90){
+        //     console.log("Your Grade is 'B' ");
+        // }
+        // else if(marks>=70 && marks<80){
+        //     console.log("Your Grade is 'C' ");
+        // }
+        // else if(marks>=60 && marks<70){
+        //     console.log("Your Grade is 'D' ");
+        // }
+        // else if(marks>=50 && marks<60){
+        //     console.log("Your Grade is 'E' ");
+        // }
+        // else if(marks<50){
+        //     console.log("Your Grade is 'F' ");
+        // }
+
+
+        // Q-7 Write a JavaScript program to find month name from month number using switch case.
+        // let month = parseInt(prompt("Enter Month Number"));
+        // let monthname;
+
+        // switch (month) {
+        //     case 1 : monthname = "January";
+        //     break;
+        //     case 2 : monthname = "February";
+        //     break;
+        //     case 3 : monthname = "March";
+        //     break;
+        //     case 4 : monthname = "April";
+        //     break;
+        //     case 5 : monthname = "May";
+        //     break;
+        //     case 6 : monthname = "June";
+        //     break;
+        //     case 7 : monthname = "July";
+        //     break;
+        //     case 8 : monthname = "August";
+        //     break;
+        //     case 9 : monthname = "September";
+        //     break;
+        //     case 10 : monthname = "October";
+        //     break;
+        //     case 11 : monthname = "November";
+        //     break;
+        //     case 12 : monthname = "December";
+        //     break;
+
+        //     default : monthname = "Invalid month number";
+        // }
+        // alert(monthname);
+
+
+        // Q-8 Write a JavaScript program to find week day from first letter of it using if else if.
+
+        // let day = prompt("Enter First two letter of week day");
+
+        // if(day == "mo"){
+        //     alert("Monday");
+        // }
+        // else if(day == "tu"){
+        //     alert("Tuesday");
+        // }
+        // else if(day == "we"){
+        //     alert("Wednesday");
+        // }
+        // else if(day == "th"){
+        //     alert("Thursday");
+        // }
+        // else if(day == "fr"){
+        //     alert("Friday");
+        // }
+        // else if(day == "sa"){
+        //     alert("Saturday");
+        // }
+        // else if(day == "su"){
+        //     alert("Sunday");
+        // }
+        // else{
+        //     alert("Invalid Input");
+        // }
+
+
+
+        // Q-9 Write a JavaScript program to find max of 4 number using nested if.
+
+        // let a = parseInt(prompt("Enter First Number"));
+        // let b = parseInt(prompt("Enter Second Number"));
+        // let c = parseInt(prompt("Enter Third Number"));
+        // let d = parseInt(prompt("Enter Fourth Number"));
+
+        // if(a>b){
+        //     if(a>c){
+        //         if(a>d){
+        //             alert(a+" is Max");
+        //         }
+        //         else{
+        //             alert(d+" is Max");
+        //         }
+        //     }
+        //     else{
+        //         if(c>d){
+        //             alert(c+" is Max");
+        //         }
+        //         else{
+        //             alert(d+" is Max");
+        //         }
+        //     }
+        // }
+        // else{
+        //     if(b>c){
+        //         if(b>d){
+        //             alert(b+" is Max");
+        //         }
+        //         else{
+        //             alert(d+" is Max");
+        //         }
+        //     }
+        //     else{
+        //         if(c>d){
+        //             alert(c+" is Max");
+        //         }
+        //         else{
+        //             alert(d+" is Max");
+        //         }
+        //     }
+        // }
+
+
+
+        // Q-10 Write a JavaScript program to create basic calculator using switch case.
+
+        // let a = parseInt(prompt("Enter the first number"));
+        // let b = parseInt(prompt("Enter the second number"));
+        // let choice = prompt("Select an operation (+, -, *, /)");
+
+        // let ans;
+
+        // switch (choice) {
+        //     case '+': ans = a + b;
+        //         break;
+        //     case '-': ans = a - b;
+        //         break;
+        //     case '*': ans = a * b;
+        //         break;
+        //     case '/': ans = a / b;
+        //         break;
+        //     default: ans = "Invalid operation";
+        // }
+        // alert("Answer = " + ans);
+
+
+        // Q-11 Write a JavaScript program to create basic calculator using ledder if else.
+
+        // let a = parseInt(prompt("Enter the first number"));
+        // let b = parseInt(prompt("Enter the second number"));
+        // let choice = prompt("Select an operation (+, -, *, /)");
+
+        // let ans;
+
+        // if(choice === "+"){
+        //     ans = a+b;
+        // } 
+        // else if(choice === "-"){
+        //     ans = a-b;
+        // } 
+        // else if(choice === "*"){
+        //     ans = a*b;
+        // } 
+        // else if(choice === "/"){
+        //     ans = a/b;
+        // }
+        // else{
+        //     ans = "Invalid Input";
+        // }
+
+        // alert("Answer = " +ans);
+
+
+
+        // Q-12 Write a JavaScript program to input angles of a triangle and check whether triangle is valid or not.
+
+        // let f_angle = parseInt(prompt("Enter First Angle of Triangle"));
+        // let s_angle = parseInt(prompt("Enter Second Angle of Triangle"));
+        // let t_angle = parseInt(prompt("Enter Third Angle of Triangle"));
+
+        // let total;
+
+        // total = f_angle + s_angle + t_angle;
+
+        // if(f_angle>0 && s_angle>0 && t_angle>0 && total=== 180){
+        //     alert("Traingle is Valid");
+        // }
+        // else{
+        //     alert("Triangle is Invalid");
+        // }
+
+    </script>
+</body>
+
+</html>
