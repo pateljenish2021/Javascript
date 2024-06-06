@@ -1,0 +1,37 @@
+<!-- Write a JavaScript program to find which number is greater in 4 numbers using ladder if else. (using no return with parameter function) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function findGreatest(a, b, c, d) {
+
+            if (a>=b && a>=c && a>=d) {
+                alert(a+" is Greatest");
+            } 
+            else if (b>=a && b>=c && b>=d) {
+                alert(b+" is Greatest");
+            } 
+            else if (c>=a && c>=b && c>=d) {
+                alert(c+" is Greatest");
+            } 
+            else {
+                alert(d+" is Greatest");
+            }
+        }
+            let a = parseInt(prompt("Enter First Number"));
+            let b = parseInt(prompt("Enter Second Number"));
+            let c = parseInt(prompt("Enter Third Number"));
+            let d = parseInt(prompt("Enter Fourth Number"));
+
+            findGreatest(a, b, c, d);
+    </script>
+</body>
+
+</html>

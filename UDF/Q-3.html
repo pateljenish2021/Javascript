@@ -1,0 +1,76 @@
+<!-- Write a JavaScript program to find which number is greater in 4 numbers using nested if else. (using simple function) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function findGreatest(a, b, c, d) {
+            if(a>b)
+            {
+                if(a>c)
+                {
+                    if(a>d) 
+                    {
+                        return a;
+                    } 
+                    else 
+                    {
+                        return d;
+                    }
+                } 
+                else 
+                {
+                    if(c>d) 
+                    {
+                        return c;
+                    } 
+                    else 
+                    {
+                        return d;
+                    }
+                }
+            } 
+            else 
+            {
+                if(b>c) 
+                {
+                    if(b>d) 
+                    {
+                        return b;
+                    } 
+                    else 
+                    {
+                        return d;
+                    }
+                } 
+                else 
+                {
+                    if(c>d) 
+                    {
+                        return c;
+                    } 
+                    else 
+                    {
+                        return d;
+                    }
+                }
+            }
+        }
+
+        let a = parseInt(prompt("Enter First Number"));
+        let b = parseInt(prompt("Enter Second Number"));
+        let c = parseInt(prompt("Enter Third Number"));
+        let d = parseInt(prompt("Enter Fourth Number"));
+
+        alert(findGreatest(a, b, c, d)+" is Greatest");
+    </script>
+</body>
+
+</html>
