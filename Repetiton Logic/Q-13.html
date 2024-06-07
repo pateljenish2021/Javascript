@@ -1,0 +1,26 @@
+<!-- Write javascript program print out Fibonacci series. (0,1,1,2,3,5,8…) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1 = 0, n2 = 1, n, i;
+        let a=parseInt(prompt("Enter a Number"));
+
+        console.log(n1);
+        console.log(n2);
+
+        for(i = 2; i < a; i++) {
+            n = n1 + n2;
+            console.log(n);
+            n1 = n2;
+            n2 = n;
+        }
+    </script>
+</body>
+</html>
