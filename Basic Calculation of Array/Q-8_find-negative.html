@@ -1,0 +1,24 @@
+<!-- Write a javascript program to find all negative elements(using array filter method). -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var arr = [2,-5,10,-30,43,44,-45,21,4];
+        console.log("Array :",arr);
+
+        var negative = arr.filter(function (element) {
+            return element < 0;
+        });
+
+        console.log("Negative elements in the array:", negative);
+    </script>
+</body>
+
+</html>
